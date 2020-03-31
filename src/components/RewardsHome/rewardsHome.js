@@ -103,12 +103,12 @@ class RewardsHome extends Component {
 
     calculateResults = (data) => {
         const { pointsByCustomer, totalPointsByCustomer, pointsPerTransaction } = this.calculatePointsPerTransaction(data);
-        const summary = this.calculatesummaryByCustomer(pointsByCustomer);
+        const summaryByCustomer = this.calculatesummaryByCustomer(pointsByCustomer);
         const totalPoints = this.calculateTotalPointsByCustomer(totalPointsByCustomer);
 
         return {
-            summaryByCustomer: summary,
-            pointsPerTransaction: pointsPerTransaction,
+            summaryByCustomer,
+            pointsPerTransaction,
             totalPointsByCustomer: totalPoints
         };
     }
@@ -120,16 +120,17 @@ class RewardsHome extends Component {
         return (
             <div>
                 <table id="t01" className="user-table">
-                    <tr>
-                        <th>Customer Name</th>
-                        <th>Month</th>
-                        <th>No. of transactions</th>
-                        <th>Reward points</th>
-                    </tr>
-
-                    {
-                        rewardsSummary && rewardsSummary.summaryByCustomer && rewardsSummary.summaryByCustomer.map(this.renderSummaryByCustomerGrid)
-                    }
+                    <tbody>
+                        <tr>
+                            <th>Customer Name</th>
+                            <th>Month</th>
+                            <th>No. of transactions</th>
+                            <th>Reward points</th>
+                        </tr>
+                        {
+                            rewardsSummary && rewardsSummary.summaryByCustomer && rewardsSummary.summaryByCustomer.map(this.renderSummaryByCustomerGrid)
+                        }
+                    </tbody>
                 </table>
             </div>
         )
