@@ -1,0 +1,86 @@
+[
+    {
+        "customerID": 101,
+        "name": "Matt Damon",
+        "amount": 120,
+        "transactionDate": "05-01-2019",
+        "address": {
+            "streetAddress": "256 Gemini St",
+            "city": "Houston",
+            "state": "TX",
+            "postalCode": "77058"
+        }
+    },
+    {
+        "customerID": 101,
+        "name": "Matt Damon",
+        "amount": 76,
+        "transactionDate": "05-02-2019",
+        "address": {
+            "streetAddress": "256 Gemini St",
+            "city": "Houston",
+            "state": "TX",
+            "postalCode": "77058"
+        }
+    },
+    {
+        "customerID": 201,
+        "name": "Tom Brady",
+        "amount": 235,
+        "transactionDate": "05-01-2019",
+        "address": {
+            "streetAddress": "729 Culver st",
+            "city": "Los Angeles",
+            "state": "CA",
+            "postalCode": "34961"
+        }
+    },
+    {
+        "customerID": 201,
+        "name": "Tom Brady",
+        "amount": 135,
+        "transactionDate": "07-03-2019",
+        "address": {
+            "streetAddress": "729 Culver st",
+            "city": "Los Angeles",
+            "state": "CA",
+            "postalCode": "34961"
+        }
+    },
+    {
+        "customerID": 301,
+        "name": "Aaron Rodgers",
+        "amount": 90,
+        "transactionDate": "08-15-2019",
+        "address": {
+            "streetAddress": "513 Westway St",
+            "city": "Los Angeles",
+            "state": "CA",
+            "postalCode": "54987"
+        }
+    },
+    {
+        "customerID": 401,
+        "name": "Ray Lewis",
+        "amount": 120,
+        "transactionDate": "05-27-2018",
+        "address": {
+            "streetAddress": "222 One loop St",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "43618"
+        }
+    },
+    {
+        "customerID": 501,
+        "name": "Earl Mitchell",
+        "amount": 156,
+        "transactionDate": "08-15-2019",
+        "address": {
+            "streetAddress": "1205 Hidden Ridge",
+            "city": "Irving",
+            "state": "TX",
+            "postalCode": "75038"
+        }
+    }
+]
