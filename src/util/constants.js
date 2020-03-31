@@ -1,4 +1,4 @@
-export const REWARDS_TITLE = 'Customer Rewards System';
+export const REWARDS_TITLE = 'Customer Rewards Management System';
 
 
 
